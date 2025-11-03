@@ -415,7 +415,7 @@ class FlixelAddon extends LumodAddon {
 					return 'LOGITECH';
 				case OUYA:
 					return 'OUYA';
-				case PS5
+				case PS5:
 					return 'PS5';
 				case PS4:
 					return 'PS4';
