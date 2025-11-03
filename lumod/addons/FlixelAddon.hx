@@ -415,6 +415,8 @@ class FlixelAddon extends LumodAddon {
 					return 'LOGITECH';
 				case OUYA:
 					return 'OUYA';
+				case PS5
+					return 'PS5';
 				case PS4:
 					return 'PS4';
 				case PSVITA:
@@ -435,6 +437,8 @@ class FlixelAddon extends LumodAddon {
 					return 'SWITCH_JOYCON_RIGHT';
 				case UNKNOWN:
 					return 'UNKNOWN';
+				default: //If it is not in this list get as UNKOWN
+					return 'UNKOWN';
 			}
 			return null;
 		});
